@@ -38,3 +38,5 @@ try:
     send_mail(fromemail, toemail, your_password, messageto, no_of_message)
 except NameError:
     print(u"\u001b[0m\n\u001b[31m[-] You may entered wrong credential. Please Try again.\u001b[0m")
+except KeyboardInterrupt:
+        print(u"\n\u001b[31m[-] Quitting...\u001b[0m")
