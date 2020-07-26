@@ -29,6 +29,7 @@ print(u"""\033[5m\u001b[31m _____                 _ _       ____                
 |  _| | '_ ` _ \ / _` | | |_____|  _ \ / _ \| '_ ` _ \| '_ \ / _ \ '__|
 | |___| | | | | | (_| | | |_____| |_) | (_) | | | | | | |_) |  __/ |   
 |_____|_| |_| |_|\__,_|_|_|     |____/ \___/|_| |_| |_|_.__/ \___|_|   \u001b[0m \u001b[33;1mBy:DJoe\u001b[0m""")
+print(u"\n\t\u001b[0m\u001b[35mReminder: Before using this tool make sure that you on \"Allow Less Secure\" Feature in your gmail account. If not go to \" https://myaccount.google.com/lesssecureapps \" and enable it\u001b[0m")
 try:
     fromemail = raw_input(u"\n\033[1;33;40m[*] \u001b[20;2mEnter Your Email \u001b[21;4m>> ")
     your_password = getpass.getpass(u"\n\u001b[0m\033[1;33;40m[*] \u001b[20;2mEnter Your Password \u001b[21;4m>> ")
